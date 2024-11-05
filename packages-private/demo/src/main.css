@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+table {
+  text-align: center;
+}
+
+caption {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+td,
+th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}

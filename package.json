@@ -25,6 +25,7 @@
     "@rollup/plugin-replace": "^6.0.1",
     "@swc/core": "^1.8.0",
     "@types/node": "^22.9.0",
+    "@vitejs/plugin-vue-jsx": "^4.0.1",
     "@vitest/eslint-plugin": "^1.1.7",
     "conventional-changelog-cli": "^5.0.0",
     "enquirer": "^2.4.1",
