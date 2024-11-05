@@ -5,6 +5,7 @@
   "main": "index.js",
   "module": "dist/swapper.esm-bundler.js",
   "types": "dist/swapper.d.ts",
+  "unpkg": "dist/swapper.global.js",
   "files": [
     "index.js",
     "dist"
