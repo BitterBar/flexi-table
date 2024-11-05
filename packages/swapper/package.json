@@ -1,0 +1,48 @@
+{
+  "name": "@flexi-table/swapper",
+  "version": "0.0.1",
+  "description": "@flexi-table/swapper",
+  "main": "index.js",
+  "module": "dist/swapper.esm-bundler.js",
+  "types": "dist/swapper.d.ts",
+  "files": [
+    "index.js",
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/swapper.d.ts",
+      "node": {
+        "production": "./dist/swapper.cjs.prod.js",
+        "development": "./dist/swapper.cjs.js",
+        "default": "./index.js"
+      },
+      "module": "./dist/swapper.esm-bundler.js",
+      "import": "./dist/swapper.esm-bundler.js",
+      "require": "./index.js"
+    },
+    "./*": "./*"
+  },
+  "buildOptions": {
+    "name": "FlexiTableSwapper",
+    "formats": [
+      "esm-bundler",
+      "cjs",
+      "global"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BitterBar/flexi-table.git",
+    "directory": "packages/swapper"
+  },
+  "keywords": [
+    "swapper"
+  ],
+  "author": "YZY",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BitterBar/flexi-table/issues"
+  },
+  "homepage": "https://github.com/BitterBar/flexi-table/tree/main/packages/swapper#readme"
+}

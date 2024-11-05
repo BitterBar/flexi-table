@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "types": ["node"],
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "stripInternal": true,
+    "composite": false
+  },
+  "include": ["packages/global.d.ts", "packages/swapper/src"]
+}

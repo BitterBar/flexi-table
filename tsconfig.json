@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "temp",
+    "sourceMap": false,
+    "target": "es2016",
+    "newLine": "LF",
+    "useDefineForClassFields": false,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "allowJs": false,
+    "strict": true,
+    "noUnusedLocals": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "removeComments": false,
+    "jsx": "preserve",
+    "lib": ["es2016", "dom"],
+    "types": ["vitest/globals", "node"],
+    "rootDir": ".",
+    "paths": {
+      "@flexi-table/*": ["packages/*/src"]
+    },
+    "isolatedDeclarations": true,
+    "composite": true
+  },
+  "include": [
+    "packages/global.d.ts",
+    "packages/*/src",
+    "packages/*/__tests__",
+    "scripts/*",
+    "rollup.*.js"
+  ]
+}
