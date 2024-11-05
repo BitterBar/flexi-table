@@ -110,7 +110,7 @@ function createConfig(format, output, plugins = []) {
 
   output.banner = `/**
 * ${pkg.name} v${masterVersion}
-* (c) 2024-present YZY
+* (c) 2024-present YuanZhaoYang
 * @license MIT
 **/`
 
