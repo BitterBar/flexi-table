@@ -1,3 +1,7 @@
 packages:
   - 'packages/*'
   - 'packages-private/*'
+
+catalog:
+  'vite': '^5.4.10'
+  '@vitejs/plugin-vue': '^5.1.4'
