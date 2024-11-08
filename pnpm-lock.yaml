@@ -95,6 +95,9 @@ importers:
       rollup-plugin-polyfill-node:
         specifier: ^0.13.0
         version: 0.13.0(rollup@4.24.4)
+      semver:
+        specifier: ^7.6.3
+        version: 7.6.3
       simple-git-hooks:
         specifier: ^2.11.1
         version: 2.11.1
