@@ -11,9 +11,11 @@
     "type-check": "vue-tsc --build --force"
   },
   "dependencies": {
+    "@flexi-table/swapper": "workspace:*",
+    "highlight.js": "^11.10.0",
+    "naive-ui": "^2.40.1",
     "vue": "^3.5.12",
-    "vue-router": "^4.4.5",
-    "@flexi-table/swapper": "workspace:*"
+    "vue-router": "^4.4.5"
   },
   "devDependencies": {
     "@tsconfig/node20": "^20.1.4",

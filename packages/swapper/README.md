@@ -1,1 +1,3 @@
-# flexi-table/swapper
+# @flexi-table/swapper
+
+📄 [[doc]](http://doc.alwaysmissly.com/flexi-table/)

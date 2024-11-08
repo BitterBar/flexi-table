@@ -21,8 +21,7 @@
       "module": "./dist/swapper.esm-bundler.js",
       "import": "./dist/swapper.esm-bundler.js",
       "require": "./index.js"
-    },
-    "./*": "./*"
+    }
   },
   "buildOptions": {
     "name": "FlexiTableSwapper",

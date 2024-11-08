@@ -1,0 +1,52 @@
+.radio {
+  padding: 1rem;
+  border: 1px solid #dfe6e9;
+  border-radius: 0.25rem;
+}
+
+.radio-legend {
+  padding: 0 0.5rem;
+  font-weight: 500;
+}
+
+.radio-option {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.radio-option > span {
+  cursor: pointer;
+}
+
+.radio-input {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid rgba(19, 15, 64, 1);
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.radio-input input[type='radio'] {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.radio-input input[type='radio']:checked + .checkmark {
+  background-color: rgba(83, 82, 237, 1); /* 设置选中时的颜色 */
+}
+
+.radio-input .checkmark {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #fff;
+  transform: translate(-50%, -50%);
+}
