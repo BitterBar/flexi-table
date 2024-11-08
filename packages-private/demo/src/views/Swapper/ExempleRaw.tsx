@@ -6,11 +6,9 @@ import CopyIcon from './CopyIcon'
 export default function ExempleRaw() {
   const handleCopy = (e: MouseEvent, raw: string) => {
     e.preventDefault()
-    const copy = new ClipboardEvent('copy', {
-      clipboardData: new DataTransfer(),
-    })
-    copy.clipboardData!.setData('text/plain', raw)
-    ;(e.target as HTMLElement).dispatchEvent(copy)
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(raw)
+    }
   }
 
   return (
@@ -21,6 +19,7 @@ export default function ExempleRaw() {
           <h3>Swapper.tsx</h3>
           <span
             style="position: absolute; right: 0"
+            title="Copy"
             onClick={e => handleCopy(e, indexRaw)}
           >
             <CopyIcon />
@@ -38,6 +37,7 @@ export default function ExempleRaw() {
           <h3>TableSwapper.ts</h3>
           <span
             style="position: absolute; right: 0"
+            title="Copy"
             onClick={e => handleCopy(e, swapperRaw)}
           >
             <CopyIcon />
