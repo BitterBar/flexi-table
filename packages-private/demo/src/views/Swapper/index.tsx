@@ -8,6 +8,7 @@ import { type DataRow, mockData } from './mock'
 import TableSwapper from './TableSwapper'
 import ExempleRaw from './ExempleRaw'
 import DataRaw from './DataRaw'
+import GithubIcon from './GithubIcon'
 
 export default defineComponent({
   name: 'Swapper',
@@ -83,7 +84,17 @@ export default defineComponent({
         style="max-width: 1400px; padding: 1rem 1.5rem 2rem; margin: 0 auto"
       >
         <NFlex vertical gap="2rem" align="center">
-          <h1>Table Swapper</h1>
+          <NFlex align="center" gap="1rem">
+            <h1>Table Swapper</h1>
+            <a
+              href="https://github.com/BitterBar/flexi-table/tree/main/packages/swapper"
+              target="_blank"
+              rel="noopener noreferrer"
+              style="line-height: 1"
+            >
+              <GithubIcon />
+            </a>
+          </NFlex>
 
           <NFlex gap="1rem" justify="center">
             <NRadio
