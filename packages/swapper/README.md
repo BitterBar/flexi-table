@@ -1,3 +1,3 @@
 # @flexi-table/swapper
 
-📄 [[doc]](http://doc.alwaysmissly.com/flexi-table/)
+📄 [[doc]](http://docs.alwaysmissly.com/flexi-table/)
