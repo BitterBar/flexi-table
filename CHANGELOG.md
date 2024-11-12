@@ -1,3 +1,7 @@
+# [0.1.0-beta.1](https://github.com/BitterBar/flexi-table/compare/v0.1.0-beta.0...v0.1.0-beta.1) (2024-11-12)
+
+
+
 # 0.1.0-beta.0 (2024-11-08)
 
 
